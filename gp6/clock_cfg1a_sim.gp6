@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/05/21 0:51">
+<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/06/22 9:39">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="16">
-        <nvmData registerLenght="2048">84 F0 F9 9D 48 91 51 10 70 53 3B 51 2D 55 B5 95 D5 A EE F0 FB F F0 4C 2E F1 50 C4 53 11 8F 45 60 D0 90 41 3 65 41 7D 20 59 1A 0 0 0 0 0 0 0 0 0 0 0 80 3 20 0 0 0 80 F3 6F 0 2 38 0 2 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 31 0 31 31 0 0 0 0 80 80 30 0 50 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 7 FB 22 20 14 22 30 C 0 0 0 0 0 0 0 17 31 6 0 0 40 40 40 40 40 F8 17 28 E 0 0 3A 55 33 EF 4 1 0 A4 35 FD 1 A0 35 FD 2 1 A4 35 FD 1 60 3A F2 2 1 94 3A FD 1 0 E 2 0 1 26 AC F6 1 3B 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
-        <checksum crc32="0x8715D2DA" version="7"/>
+        <nvmData registerLenght="2048">84 F0 F9 9D 58 91 51 10 70 53 3B 51 2D 55 B5 95 D5 A D1 F0 FB F F0 4C 2E F1 50 C4 53 11 8F 45 60 D0 90 41 3 65 41 7D 20 59 1A 0 0 0 0 0 0 0 0 0 0 0 80 3 20 0 0 0 80 F3 6F 0 2 38 0 2 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 31 0 31 31 0 0 0 0 80 80 30 0 50 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 7 FB 22 20 14 22 30 C 0 0 0 0 0 0 0 17 31 6 0 0 40 40 40 40 40 F8 17 28 E 0 0 3A 55 33 EF 4 1 0 A4 35 FD 1 A0 35 FD 2 1 A4 35 FD 1 60 3A F2 2 1 94 3A FD 1 0 E 2 0 1 26 AC F6 1 3B 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
+        <checksum crc32="0x36174DA3" version="7"/>
         <asmModel>
             <stateMachine>
                 <asmModel version="2">
@@ -479,7 +479,7 @@
             <points/>
         </wire>
         <wire output="206" input="676" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="4" wireText="NET4" wireState="0">
-            <points>(-72.00,1216.00); (-12.25,1216.00); (-12.25,1197.00); (20.00,1197.00)</points>
+            <points>(-72.00,1216.00); (9.00,1216.00); (9.00,1197.00); (20.00,1197.00)</points>
         </wire>
         <wire output="170" input="649" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="9" wireText="NET9" wireState="0">
             <points>(-285.00,1342.00); (14.00,1342.00); (14.00,1219.00); (20.00,1219.00)</points>
@@ -559,17 +559,11 @@
         <wire output="202" input="545" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="20" wireText="NET20" wireState="0">
             <points>(588.00,735.00); (609.00,735.00); (609.00,710.00); (333.00,710.00); (333.00,731.00); (348.00,731.00)</points>
         </wire>
-        <wire output="163" input="544" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="12" wireText="#C2" wireState="0">
-            <points>(571.00,1165.00); (585.00,1165.00); (585.00,926.00); (333.00,926.00); (333.00,748.00); (348.00,748.00)</points>
-        </wire>
         <wire output="159" input="638" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="18" wireText="NET18" wireState="0">
             <points>(426.00,740.00); (441.00,740.00); (441.00,864.00); (487.00,864.00)</points>
         </wire>
         <wire output="143" input="565" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="34" wireText="EN3X" wireState="1">
             <points/>
-        </wire>
-        <wire output="205" input="564" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="30" wireText="NET30" wireState="0">
-            <points>(82.00,1208.00); (165.00,1208.00); (165.00,1305.00); (180.00,1305.00)</points>
         </wire>
         <wire output="159" input="647" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="NET18" wireState="0">
             <points>(426.00,740.00); (441.00,740.00); (441.00,986.00); (650.00,986.00); (650.00,1003.00); (656.00,1003.00)</points>
@@ -603,6 +597,12 @@
         </wire>
         <wire output="143" input="639" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="34" wireText="EN3X" wireState="1">
             <points/>
+        </wire>
+        <wire output="164" input="544" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="23" wireText="#B2" wireState="0">
+            <points>(571.00,1087.00); (585.00,1087.00); (585.00,926.00); (333.00,926.00); (333.00,748.00); (348.00,748.00)</points>
+        </wire>
+        <wire output="160" input="564" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="39" wireText="NET39" wireState="0">
+            <points>(-386.00,1292.00); (-392.00,1292.00); (-392.00,1478.00); (165.00,1478.00); (165.00,1305.00); (180.00,1305.00)</points>
         </wire>
         <textLabel pos="(288.08,494.00)" angle="0.00" textColor="#ffffffff" backgroundColor="#14141464">for OSL40391-LX (Common Cathode type)
 http://akizukidenshi.com/catalog/g/gI-09963/</textLabel>
