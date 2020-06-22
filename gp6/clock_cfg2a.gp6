@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/05/21 0:29">
+<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/06/22 23:33">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="16">
         <nvmData registerLenght="2048">16 64 61 D 36 3D D 83 36 C DA 30 68 C3 A0 D 83 32 E8 C3 A0 2A 0 0 0 10 84 40 C3 74 4B 58 4A 22 50 8D 23 34 92 0 0 0 0 0 0 0 0 0 0 0 0 E9 2F 3A D4 4F FE E5 B5 FE ED 1F FD EC F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 84 84 0 0 0 0 84 80 0 0 0 0 4 51 31 31 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 84 11 0 0 FB 10 45 9F 80 D 0 0 1 0 0 0 0 0 0 20 0 1 0 44 88 F4 27 20 F1 53 9 1F 54 2A 53 1F 61 88 53 9 1F 44 BB 53 1F 21 BB 53 9 1F 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
@@ -632,7 +632,7 @@
         <wire output="196" input="634" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="4" wireText="dig1" wireState="0">
             <points>(-255.00,763.00); (-233.00,763.00); (-233.00,668.00); (-362.00,668.00); (-362.00,647.00); (-356.00,647.00)</points>
         </wire>
-        <textLabel pos="(-122.33,71.00)" angle="0.00" textColor="#ffffffff" backgroundColor="#14141464">for OSL40391-LX (Common Cathode type)
+        <textLabel pos="(-122.33,104.40)" angle="0.00" textColor="#ffffffff" backgroundColor="#14141464">for OSL40391-LX (Common Cathode type)
 http://akizukidenshi.com/catalog/g/gI-09963/</textLabel>
     </chip>
     <emulatorConfiguration version="1">
@@ -1115,9 +1115,9 @@ http://akizukidenshi.com/catalog/g/gI-09963/</textLabel>
         </specs>
         <projectDataFields>
             <textLineDataField name="Customer&#10;Name:" id="2" text="AoiSaya"/>
-            <textLineDataField name="Customer&#10;Project Name:" id="3" text="7SEG_HS220561K /w sleep"/>
+            <textLineDataField name="Customer&#10;Project Name:" id="3" text="7SEG_OSL40391-LX 24H clock "/>
             <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
-            <textLineDataField name="Customer&#10;Version Number:" id="5" text="001"/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text="002"/>
             <multiTextLineDataField>
                 <textLineDataField name="Notes:" id="6" text=""/>
             </multiTextLineDataField>
