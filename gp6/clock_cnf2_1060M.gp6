@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/09/21 20:17">
+<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/09/22 21:46">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
-        <nvmData registerLenght="2048">16 64 61 D 36 3D D 83 36 C DA 30 68 C3 A0 D 83 32 E8 C3 A0 2A 0 0 0 10 84 40 C3 74 4B 58 2 22 0 0 23 0 90 0 0 0 0 0 0 0 0 0 0 0 0 E9 2F 3A D4 4F FE E5 25 FD D0 1F FD D5 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 80 84 4 0 0 0 80 84 4 0 4 4 4 1 31 31 0 0 0 0 0 0 0 0 0 0 0 0 1B 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 84 11 0 0 FB 10 45 9F 80 D 0 0 1 0 0 0 0 0 0 20 0 1 0 44 88 F4 27 20 E0 53 1 1F 54 A8 53 1F 60 FE 53 1 1F 44 FE 53 1F 20 FE 53 1 1F 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
-        <checksum crc32="0xD17B186A" version="7"/>
+        <nvmData registerLenght="2048">16 64 61 D 36 3D D 83 36 C DA 30 68 C3 A0 D 83 32 E8 C3 A0 2A 0 0 0 10 84 40 C3 74 4B 58 2 22 0 0 23 0 90 0 0 0 0 0 0 0 0 0 0 0 0 E9 2F 3A D4 4F FE E5 25 FD D0 1F FD D5 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 80 84 4 0 0 0 80 84 4 0 4 4 4 1 31 31 0 0 0 0 0 0 0 0 0 0 0 0 1B 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 84 11 0 0 FB 10 45 9F 80 D 0 0 1 0 0 0 0 0 0 20 0 1 0 44 88 F4 27 20 E0 43 1 1F 54 A8 43 1F 60 FE 43 1 1F 44 FE 43 1F 20 FE 43 1 1F 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
+        <checksum crc32="0x38398F64" version="7"/>
         <asmModel>
             <stateMachine>
                 <asmModel version="2">
@@ -623,7 +623,7 @@ https://www.mouser.jp/datasheet/2/427/tdcx10x0m-1767280.pdf</textLabel>
         <settings>
             <autoApply value="0"/>
             <programmingOptions programNVM="1" programEEPROM="0"/>
-            <platformSelector id="0"/>
+            <platformSelector id="3"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="1">
@@ -735,9 +735,83 @@ https://www.mouser.jp/datasheet/2/427/tdcx10x0m-1767280.pdf</textLabel>
     </emulatorConfiguration>
     <simulationConfiguration version="6" compatibleVersion="6" activePreset="-1">
         <draftPreset>
-            <simulationPreset index="-1" name="Default" customGroupLayout="false">
-                <tran max="2.000000e+01|6" start="0.000000e+00|5" step="2.000000e+01|6" stop="1.200000e+01|5" temp="25" uic="false" vdd="3.300000e+00|4"/>
-                <probes/>
+            <simulationPreset index="-1" name="Default" customGroupLayout="true">
+                <tran max="2.000000e+01|6" start="0.000000e+00|5" step="2.000000e+01|6" stop="3.000000e+01|5" temp="25" uic="false" vdd="3.300000e+00|4"/>
+                <probes>
+                    <probe category="0" componentType="0" componentNumber="0" pinNumber="1"/>
+                    <probe category="0" componentType="1" componentNumber="0" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="2" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="2" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="3" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="3" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="4" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="4" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="5" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="5" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="6" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="6" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="7" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="7" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="8" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="9" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="10" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="12" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="13" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="13" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="15" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="15" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="16" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="16" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="17" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="17" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="18" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="18" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="19" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="19" pinNumber="1"/>
+                    <probe category="0" componentType="2" componentNumber="20" pinNumber="0"/>
+                    <probe category="0" componentType="2" componentNumber="20" pinNumber="1"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="0"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="2"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="3"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="5"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="9"/>
+                    <probe category="0" componentType="21" componentNumber="1" pinNumber="10"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="0"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="1"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="2"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="3"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="4"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="5"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="6"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="7"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="8"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="9"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="10"/>
+                    <probe category="0" componentType="22" componentNumber="0" pinNumber="11"/>
+                    <probe category="1" componentType="6" componentNumber="0" pinNumber="0"/>
+                    <probe category="1" componentType="6" componentNumber="1" pinNumber="0"/>
+                    <probe category="1" componentType="6" componentNumber="2" pinNumber="0"/>
+                    <probe category="1" componentType="6" componentNumber="3" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="0" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="1" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="2" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="3" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="4" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="5" pinNumber="0"/>
+                    <probe category="1" componentType="7" componentNumber="6" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="7" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="8" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="9" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="10" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="11" pinNumber="0"/>
+                    <probe category="2" componentType="7" componentNumber="12" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="1" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="2" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="3" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="4" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="5" pinNumber="0"/>
+                    <probe category="2" componentType="16" componentNumber="6" pinNumber="0"/>
+                </probes>
                 <gnds>
                     <gnd category="0" componentType="0" componentNumber="0" pinNumber="0"/>
                 </gnds>
@@ -745,8 +819,290 @@ https://www.mouser.jp/datasheet/2/427/tdcx10x0m-1767280.pdf</textLabel>
                     <vsrc category="0" componentType="1" componentNumber="0" pinNumber="0" hasRC="1" intR="1.000000e+01|4" intC="1.000000e+02|7" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|5" viewName="VDD" V="3.300000e+00|4" tr="1.000000e+00|5" type="ramp"/>
                     <vsrc category="0" componentType="1" componentNumber="1" pinNumber="0" hasRC="1" intR="1.000000e+01|4" intC="1.000000e+02|7" showOnePer="0" hasLimitedVoltage="1" td="0.000000e+00|5" viewName="VDD2" V="3.300000e+00|4" tr="1.000000e+00|5" type="ramp"/>
                 </voltageSources>
-                <groups/>
-                <waveforms/>
+                <groups>
+                    <group name="[S] VDD">
+                        <waveforms>
+                            <waveform category="0" componentType="1" componentNumber="0" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT1/DLY1 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="1" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT2/DLY2 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="2" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT3/DLY3 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="3" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT4/DLY4 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="4" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT5/DLY5 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="5" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] CNT6/DLY6 -&gt; OUT">
+                        <waveforms>
+                            <waveform category="2" componentType="16" componentNumber="6" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] PIN 3 &lt;- EXT. IN/OUT">
+                        <waveforms>
+                            <waveform category="0" componentType="2" componentNumber="3" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] PIN 4 &lt;- EXT. IN/OUT">
+                        <waveforms>
+                            <waveform category="0" componentType="2" componentNumber="4" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] PIN 7 &lt;- EXT. IN/OUT">
+                        <waveforms>
+                            <waveform category="0" componentType="2" componentNumber="7" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                    <group name="[P] PIN 10 &lt;- EXT. OUT">
+                        <waveforms>
+                            <waveform category="0" componentType="2" componentNumber="10" pinNumber="0"/>
+                        </waveforms>
+                    </group>
+                </groups>
+                <waveforms>
+                    <waveform category="0" componentType="0" componentNumber="0" pinNumber="1" name="[P] GND">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="1" componentNumber="0" pinNumber="0" name="[S] VDD">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="1" componentNumber="0" pinNumber="1" name="[P] VDD (2)">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="1" componentNumber="1" pinNumber="0" name="[S] VDD2">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="2" pinNumber="0" name="[P] PIN 2 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="2" pinNumber="1" name="[P] B234">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="3" pinNumber="0" name="[P] PIN 3 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="3" pinNumber="1" name="[P] PIN 3 -&gt; OUT">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="4" pinNumber="0" name="[P] PIN 4 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="4" pinNumber="1" name="[P] PIN 4 -&gt; OUT">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="5" pinNumber="0" name="[P] PIN 5 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="5" pinNumber="1" name="[P] PIN 5 -&gt; OUT">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="6" pinNumber="0" name="[P] PIN 6 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="6" pinNumber="1" name="[P] PIN 6 -&gt; OUT">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="7" pinNumber="0" name="[P] PIN 7 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="7" pinNumber="1" name="[P] PIN 7 -&gt; OUT">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="8" pinNumber="1" name="[P] PIN 8 -&gt; OUT">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="9" pinNumber="1" name="[P] PIN 9 -&gt; OUT">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="10" pinNumber="0" name="[P] PIN 10 &lt;- EXT. OUT">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="12" pinNumber="0" name="[P] PIN 12 &lt;- EXT. OUT">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="13" pinNumber="0" name="[P] PIN 13 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="13" pinNumber="1" name="[P] PIN 13 -&gt; OUT">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="15" pinNumber="0" name="[P] PIN 15 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="15" pinNumber="1" name="[P] PIN 15 -&gt; OUT">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="16" pinNumber="0" name="[P] PIN 16 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="16" pinNumber="1" name="[P] PIN 16 -&gt; OUT">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="17" pinNumber="0" name="[P] PIN 17 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="17" pinNumber="1" name="[P] PIN 17 -&gt; OUT">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="18" pinNumber="0" name="[P] PIN 18 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="18" pinNumber="1" name="[P] A24">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="19" pinNumber="0" name="[P] PIN 19 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="19" pinNumber="1" name="[P] C">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="20" pinNumber="0" name="[P] PIN 20 &lt;- EXT. IN/OUT">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="2" componentNumber="20" pinNumber="1" name="[P] D">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="0" name="[P] OSC1 -&gt; OUT0">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="2" name="[P] OSC1 -&gt; OUT1">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="3" name="[P] OSC1 -&gt; CLK">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="5" name="[P] OSC1 -&gt; CLK /8">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="9" name="[P] OSC1 -&gt; CLK /64">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="21" componentNumber="1" pinNumber="10" name="[P] OSC1 -&gt; CLK /512">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="0" name="[P] I2C -&gt; OUT0">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="1" name="[P] I2C -&gt; OUT1">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="2" name="[P] I2C -&gt; OUT2">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="3" name="[P] I2C -&gt; OUT3">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="4" name="[P] I2C -&gt; OUT4">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="5" name="[P] I2C -&gt; OUT5">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="6" name="[P] I2C -&gt; OUT6">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="7" name="[P] I2C -&gt; OUT7">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="8" name="[P] I2C -&gt; PIN OUT0">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="9" name="[P] I2C -&gt; PIN OUT1">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="10" name="[P] I2C -&gt; PIN OUT2">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="0" componentType="22" componentNumber="0" pinNumber="11" name="[P] I2C -&gt; PIN OUT3">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="6" componentNumber="0" pinNumber="0" name="[P] 2-bit LUT0 -&gt; OUT">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="6" componentNumber="1" pinNumber="0" name="[P] 2-L1 -&gt; OUT">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="6" componentNumber="2" pinNumber="0" name="[P] 2-L2 -&gt; OUT">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="6" componentNumber="3" pinNumber="0" name="[P] 2-L3 -&gt; OUT">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="0" pinNumber="0" name="[P] 3-bit LUT0 -&gt; OUT">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="1" pinNumber="0" name="[P] 3-bit LUT1 -&gt; OUT">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="2" pinNumber="0" name="[P] 3-bit LUT2 -&gt; OUT">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="3" pinNumber="0" name="[P] 3-bit LUT3 -&gt; OUT">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="4" pinNumber="0" name="[P] 3-L4 -&gt; OUT">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="5" pinNumber="0" name="[P] 3-bit LUT5 -&gt; OUT">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="1" componentType="7" componentNumber="6" pinNumber="0" name="[P] 3-L6 -&gt; OUT">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="7" pinNumber="0" name="[P] B">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="8" pinNumber="0" name="[P] 3-bit LUT8 -&gt; OUT">
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="9" pinNumber="0" name="[P] A">
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="10" pinNumber="0" name="[P] 3-L10 -&gt; OUT">
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="11" pinNumber="0" name="[P] 3-L11 -&gt; OUT">
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="7" componentNumber="12" pinNumber="0" name="[P] 3-L12 -&gt; OUT">
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="1" pinNumber="0" name="[P] CNT1/DLY1 -&gt; OUT">
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="2" pinNumber="0" name="[P] CNT2/DLY2 -&gt; OUT">
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="3" pinNumber="0" name="[P] CNT3/DLY3 -&gt; OUT">
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="4" pinNumber="0" name="[P] CNT4/DLY4 -&gt; OUT">
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="5" pinNumber="0" name="[P] CNT5/DLY5 -&gt; OUT">
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                    <waveform category="2" componentType="16" componentNumber="6" pinNumber="0" name="[P] CNT6/DLY6 -&gt; OUT">
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                    </waveform>
+                </waveforms>
                 <xtals/>
             </simulationPreset>
         </draftPreset>
@@ -763,7 +1119,7 @@ https://www.mouser.jp/datasheet/2/427/tdcx10x0m-1767280.pdf</textLabel>
             <textLineDataField name="Customer&#10;Name:" id="2" text="AoiSaya"/>
             <textLineDataField name="Customer&#10;Project Name:" id="3" text="for TDCG1060M 24H 32768Hz RTC"/>
             <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
-            <textLineDataField name="Customer&#10;Version Number:" id="5" text="003"/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text="004"/>
             <multiTextLineDataField>
                 <textLineDataField name="Notes:" id="6" text=""/>
             </multiTextLineDataField>
