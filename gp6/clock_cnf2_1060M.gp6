@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/09/23 0:41">
+<GPDProject version="10" oldestCompatibleVersion="9" GPDVersion="6.21.005" lastChange="2020/09/25 0:41">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
-        <nvmData registerLenght="2048">16 64 61 D 36 3D D 83 36 C DA 30 68 C3 A0 D 83 32 E8 C3 A0 2A 0 0 0 10 84 40 C3 74 4B 48 2 80 8 0 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 E9 2F 3A D4 3F FE E4 25 FD D0 1F FD D5 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 80 84 4 0 0 0 80 84 4 0 4 4 4 1 31 31 0 0 0 0 0 0 0 0 0 0 0 0 1B 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 84 11 0 0 FB 10 45 9F 80 D 0 0 1 0 0 0 0 0 0 20 0 1 0 44 22 F4 27 20 E0 43 1 1F 54 A8 43 1F 10 0 43 1 1F 42 0 43 1F 0 0 2 0 1 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
-        <checksum crc32="0x81CD6119" version="7"/>
+        <nvmData registerLenght="2048">16 64 61 D 36 3D D 83 36 C DA 30 68 C3 A0 D 83 32 E8 C3 A0 2A 0 0 0 10 84 40 C3 74 4B 48 2 80 8 0 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 E9 2F 3A D4 3F FE E4 25 FD D0 1F FD D5 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 80 80 0 0 0 0 80 80 0 0 0 0 0 71 31 31 0 0 0 0 0 0 0 0 0 0 0 0 1B 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 84 11 0 0 FB 10 45 9F 80 D 0 0 1 0 0 0 0 0 0 20 0 1 0 44 22 F4 27 20 E0 43 1 1F 54 A8 43 1F 10 0 43 1 1F 42 0 43 1F 0 0 2 0 1 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
+        <checksum crc32="0xD82C8FED" version="7"/>
         <asmModel>
             <stateMachine>
                 <asmModel version="2">
@@ -1082,9 +1082,9 @@ https://www.mouser.jp/datasheet/2/427/tdcx10x0m-1767280.pdf</textLabel>
             <textLineDataField name="Customer&#10;Name:" id="2" text="AoiSaya"/>
             <textLineDataField name="Customer&#10;Project Name:" id="3" text="for TDCG1060M 24H 32768Hz RTC"/>
             <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
-            <textLineDataField name="Customer&#10;Version Number:" id="5" text="006"/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text="007"/>
             <multiTextLineDataField>
-                <textLineDataField name="Notes:" id="6" text="debug B (dig1 mask modified)"/>
+                <textLineDataField name="Notes:" id="6" text="all drive to x1"/>
             </multiTextLineDataField>
         </projectDataFields>
     </projectData>
